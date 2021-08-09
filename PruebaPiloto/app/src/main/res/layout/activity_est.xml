@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:scrollbars="vertical"
+    tools:context="ICMA.promedy.Promedy.estActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="400dp"
+        android:layout_height="306dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indiceDeseado">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/uve2"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/uv1"
+                android:inputType="number"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uve1" />
+
+            <EditText
+                android:id="@+id/uve5"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/uv1"
+                android:inputType="number"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uve4" />
+
+            <EditText
+                android:id="@+id/NombreClase1"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/nombreClase"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/nombreClase3"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/nombreClase"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nombreClase2" />
+
+            <EditText
+                android:id="@+id/nombreClase4"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="26dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/nombreClase"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nombreClase3" />
+
+            <EditText
+                android:id="@+id/nombreClase2"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="26dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/nombreClase"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/NombreClase1" />
+
+            <EditText
+                android:id="@+id/uve4"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/uv1"
+                android:inputType="number"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uve3" />
+
+            <EditText
+                android:id="@+id/uve1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/uv1"
+                android:inputType="number"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/nombreClase5"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/nombreClase"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nombreClase4" />
+
+            <EditText
+                android:id="@+id/uve3"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:ems="10"
+                android:fontFamily="@font/alegreya_sc_black"
+                android:hint="@string/uv1"
+                android:inputType="number"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uve2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc_black"
+        android:text="@string/Tituloestimaciones"
+        android:textColor="#DAF3F3F3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="75dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/calcular" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/animaboton"
+        android:onClick="estimar"
+        android:text="@string/calc"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <EditText
+        android:id="@+id/indiceDeseado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc_black"
+        android:hint="@string/indicedeseado"
+        android:inputType="number"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.044" />
+</androidx.constraintlayout.widget.ConstraintLayout>

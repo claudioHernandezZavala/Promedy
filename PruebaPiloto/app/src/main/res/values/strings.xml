@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Promedy</string>
+    <string name="ingresaD">Ingresa tus datos</string>
+    <string name="uv1">UV</string>
+    <string name="uv2">UV</string>
+    <string name="uv3">UV</string>
+    <string name="uv4">UV</string>
+    <string name="nota1">Nota </string>
+    <string name="botonnVolver">Regresar</string>
+    <string name="Instrucciones">Ingrese 0 en lugar de dejar un espacio en blanco</string>
+
+    <string name="promedio">Tu promedio es de:</string>
+    <string name="title_activity_inicio">inicio</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <string name="is">Indice semestral</string>
+    <string name="it">Apoya a ICMA</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="s">índice semestral</string>
+    <string name="t">índice</string>
+    <string name="b">Buscar ayuda</string>
+    <string name="b2">Estimaciones</string>
+    <string name="volver">Volver a inicio</string>
+    <string name="tituloInicio">¿Qué te gustaría obtener?</string>
+    <string name="Compartir">¡Comparte tus resultados!</string>
+    <string name="Like">Regálanos un like!</string>
+
+
+    <string name="pedirayuda">¡Pedir ayuda está bien!</string>
+    <string name="nombre">Nombre del curso o tema</string>
+    <string name="ingresarcurso">¿En qué tema necesitas ayuda?</string>
+    <string name="videos">Buscar</string>
+    <string name="paginasweb">Paginas web</string>
+    <string name="opciones">Escoge una de las opciones</string>
+    <string name="yutu">Youtube</string>
+    <string name="khan">Khan Academy</string>
+    <string name="nombreClase">Nombre de curso</string>
+    <string name="Tituloestimaciones">Calculadora de índice ideal</string>
+    <string name="calc">Calcular</string>
+    <string name="indicedeseado">Ingresar índice deseado</string>
+    <string name="resulesti">Tu índice deseado:</string>
+
+
+</resources>

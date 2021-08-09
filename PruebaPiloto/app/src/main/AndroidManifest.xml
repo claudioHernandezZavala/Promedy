@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Promedy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        <activity android:name="ICMA.promedy.Promedy.Anuncios" />
+        <activity android:name="ICMA.promedy.Promedy.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ICMA.promedy.Promedy.estActivity" />
+        <activity android:name="ICMA.promedy.Promedy.resultadosEstimaciones" />
+        <activity android:name="ICMA.promedy.Promedy.ayudaAcademica" />
+        <activity android:name="ICMA.promedy.Promedy.webActivity" />
+        <activity android:name="ICMA.promedy.Promedy.opcionesdeAyuda1" />
+        <activity android:name="ICMA.promedy.Promedy.MainActivity3" />
+        <activity android:name="ICMA.promedy.Promedy.MainActivity2" />
+        <activity
+            android:name="ICMA.promedy.Promedy.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7031806659052855~5556900979" />
+    </application>
+
+</manifest>
